@@ -21,9 +21,9 @@ print("\b\b  ")
         EVEN NUMBER CHECKER BETWEEN A RANGE
 
 Enter lower value for the range : 1
-Enter higher value for the range : 15
+Enter higher value for the range : 16
 
-Even numbers between 1 and 35 are:
-2, 4, 6, 8, 10, 12, 14
+Even numbers between 1 and 16 are:
+2, 4, 6, 8, 10, 12, 14, 16
 
 '''

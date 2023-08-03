@@ -6,7 +6,7 @@ import math
 again = "yes"
 
 while again == "yes" or again == "YES":
-    print("\n\t\t:: AREA CANCULATOR ::\n")
+    print("\n\t\t:: AREA CALCULATOR ::\n")
     print("Choose a option and enter corresponding number")
     print("1. Square", "\n2. Rectangle", "\n3. Circle")
 
@@ -36,11 +36,10 @@ while again == "yes" or again == "YES":
     again = input(
         "\n\tWant to run again?\n\tEnter 'yes' to continue\n\tAnything other to exit\n>>")
 
-print("\n\tTHANK YOU FOR USING THIS PROGRAM\n")
 
 ''' OUTPUT 1: 
 
-            :: AREA CANCULATOR ::
+            :: AREA CALCULATOR ::
 
 Choose a option and enter corresponding number
 1. Square   
@@ -61,7 +60,7 @@ Area of a square with length 23.0 unit of one side is = 529.0 sqr. unit
         THANK YOU FOR USING THIS PROGRAM
 
 OUTPUT 2:
-                    :: AREA CANCULATOR ::
+                    :: AREA CALCULATOR ::
 
 Choose a option and enter corresponding number
 1. Square 
@@ -83,7 +82,7 @@ Area of a rectangle with length 3.0 unit & width 15.0 unit is = 45.0 sqr. unit
         THANK YOU FOR USING THIS PROGRAM
 
 OUTPUT 3:
-                :: AREA CANCULATOR ::
+                :: AREA CALCULATOR ::
 
 Choose a option and enter corresponding number
 1. Square 
