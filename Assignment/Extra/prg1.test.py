@@ -1,0 +1,5 @@
+p = float(input('enter basic'))
+q = float(input('enter DA'))
+r = float(input('enter HRA'))
+s = p+(p*(q/100))+(p*(r/100))
+print(s)

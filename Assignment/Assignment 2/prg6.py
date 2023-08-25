@@ -1,15 +1,35 @@
 '''
-    Sum of all even numbers upto 1000
+    Largest among three numbers
 '''
 
-print("\n\tSUM OF ALL NATURAL NUMBERS UPTO N\n")
+print("\n\tLARGEST AMONG THREE NUMBERS\n")
 
-i = 1  # natural number starts from 1, without 0
-sum = 0
+a = int(input("Enter first number : "))
+b = int(input("Enter second number : "))
+c = int(input("Enter third number : "))
 
-while i <= 1000:
-    if i % 2 == 0:
-        sum += i
-    i += 1
+if a == b:
+    print("\n!!! first(", a, ")and second (", b, ") numbers are equal  !!!")
+elif b == c:
+    print("\n!!! second(", b, ")and third (", c, ") numbers are equal  !!!")
+elif c == a:
+    print("\n!!! first(", a, ")and third (", c, ") numbers are equal  !!!")
+elif a > b and a > c:
+    print("\n>>", a, "is the largest number <<")
+elif b > a and b > c:
+    print("\n>>", b, "is the largest number <<")
+elif c > a and c > a:
+    print("\n>>", c, "is the largest number <<")
 
-print("\nSum of all even number upto 1000 is = {}".format(sum))
+'''
+ OUTPUT : 
+
+        LARGEST AMONG THREE NUMBERS
+
+Enter first number : 25
+Enter second number : 69
+Enter third number : 36
+
+>> 69 is the largest number <<
+
+'''
